@@ -17,6 +17,6 @@ class EmailAddressParser
   
 end
     
-email_addresses = "john@doe.com, person@somewhere.org amy@two.toi"
-parser = EmailAddressParser.new(email_addresses)
-puts parser.parse.inspect
+#email_addresses = "john@doe.com, person@somewhere.org amy@two.toi"
+#parser = EmailAddressParser.new(email_addresses)
+#puts parser.parse.inspect
