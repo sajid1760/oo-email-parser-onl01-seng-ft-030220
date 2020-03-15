@@ -12,9 +12,7 @@ class EmailAddressParser
   end
   
   def parse
-    rett = @email_addresses.gsub(", "," ").split(" ")
-    rett.each do |email|
-      
+    rett = @email_addresses.gsub(", "," ").split(" ").uniq
   end
   
   
