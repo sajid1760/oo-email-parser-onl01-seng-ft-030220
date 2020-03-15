@@ -12,8 +12,11 @@ class EmailAddressParser
   end
   
   def parse
-    @email_addresses.gsub(", "," ").split(" ")
+    rett = @email_addresses.gsub(", "," ").split(" ")
+    rett.each do |email|
+      
   end
+  
   
 end
     
